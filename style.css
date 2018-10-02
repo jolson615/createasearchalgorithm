@@ -1,0 +1,37 @@
+#mainContainer {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 100px);
+}
+
+.item {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.grey {
+  color: darkGrey;
+  background-color: grey;
+}
+
+.hidden {
+  display: none;
+}
+
+.info {
+  text-align: center;
+}
+
+#instructions {
+  font-weight: 100;
+}
+#instructions span {
+  font-size: 16px;
+}
+
+.number {
+  font-size: 26px;
+  font-weight: 900;
+}
